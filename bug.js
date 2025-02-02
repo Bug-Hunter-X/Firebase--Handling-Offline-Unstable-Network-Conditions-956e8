@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if the user's device is offline or has a poor network connection. This can lead to unexpected behavior in your application.  For example, a call to `set()` might fail silently, or a listener might not receive updates. This often manifests as no response to the function call or a promise that never resolves.
